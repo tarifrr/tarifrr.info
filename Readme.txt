@@ -1,3 +1,3 @@
-Hello I am playing with git hub... Trying to get around to what it does
+The files in this repository contain files to the renovated website (tarifrr.info) that I intend to build.
 
-This is a new branch I am working on a new feature
+Currently, a home page along with a few css and js files are now put in place. More updates to follow soon.
