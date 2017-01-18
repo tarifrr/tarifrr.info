@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+body{
+
+	background: url(../images/background.jpg);
+	background-attachment: fixed;
+	letter-spacing: .1em;
+	font-size: 1em;
+}
+
+nav{
+
+	text-align: center;
+
+	
+	
+}
+
+nav h3{
+
+	font-size: 1.5em;
+	font-family: Courier;
+	font-weight: bold;
+	margin: 3%;	
+	color: blue;
+	text-shadow: 2px 2px 5px black;
+	animation-name: titleAnimation;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+
+}
+
+
+
+nav ul{
+
+	list-style-type: none;
+	position: relative;
+	margin: 3%;
+	
+}
+
+@keyframes titleAnimation{
+
+	from{color: blue;}
+	to{color: purple;}
+
+
+}
+
+header{
+
+	
+	
+	background-repeat: no-repeat;
+	clear: both;
+	
+}
+
+
+
+
+nav ul li{
+
+	font-family: "Courier";
+	font-weight: bold;
+	float: left;
+	padding-left: 3%;
+	padding-right: 3%;
+	position: relative;
+	box-shadow: 10px 10px 10px 10px grey;
+	/*margin-top: 2%;
+	*/
+}
+
+a:link {
+
+	text-decoration: none;
+	color: black;
+
+
+}
+
+
+
+
+
+body{
+
+	padding: 3%;
+
+}
